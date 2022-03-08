@@ -29,7 +29,9 @@ a button {
     border: solid 2px black;
     margin-top: 20px;
 }
-
+.menu-top{
+  
+}
 .header-top{
     position: fixed;
     background-color: rgb(119, 119, 119);
@@ -37,6 +39,8 @@ a button {
     top: 0;
     width: 100%;
     left: 0;
+    display: flex;
+    justify-content: space-between;
   
 }
 
@@ -45,12 +49,14 @@ ul li{
     display: inline-block;
     margin: 0 15px 0 0;
 
+
 }
 ul li a{
     color: white;
     text-decoration: none;  
 margin-left: 50px;
     padding: 1px 16px;
+    
 
 }
 ul li a:hover{
@@ -78,7 +84,7 @@ ul li a:hover{
 
 }
 .header-position{
-margin-top: 60px;
+margin-top: 80px;
 }
 .parag-rodape{
     color: aliceblue;
