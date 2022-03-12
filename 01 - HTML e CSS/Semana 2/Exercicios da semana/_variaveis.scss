@@ -1,0 +1,20 @@
+
+$corCorpo: rgb(241, 241, 241);
+$fontSize_Search: 8px;
+$font_Family: 'Raleway', sans-serif, 'Open Sans', sans-serif;
+$widthTotal: 100%;
+$marginCol:0 45px;
+$colorP: rgba(31, 31, 31, 0.787);
+$colorH:rgb(9, 119, 119);
+$alinharTexto: center;
+
+@mixin flexBox_ ($widthCorpo, $heightCorpo, $displayCorpo, $box)
+ {
+    width: $widthCorpo;
+    height: $heightCorpo;
+    display: $displayCorpo;
+    box-sizing: $box;
+  }
+  .flex{
+    width:   $widthTotal;
+  }
