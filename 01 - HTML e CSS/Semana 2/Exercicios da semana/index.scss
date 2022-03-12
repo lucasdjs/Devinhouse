@@ -19,7 +19,8 @@ header {
    nav{
        display:flex;
        justify-content: space-between;
-       margin-top: 10px;
+       margin-top: 5px;
+       margin-left: 5px;
        box-sizing: border-box;
        white-space: nowrap;
 
@@ -29,6 +30,7 @@ header {
            padding: 0;
            a{
             text-decoration: none;
+            margin-right: 5px;
            }
            img{
             width: 25px;
@@ -70,6 +72,7 @@ header {
         background-color:variaveis.$corCorpo;
         border-bottom: solid 1px rgba(0, 0, 0, 0.096);
         border-top: solid 1px rgba(0, 0, 0, 0.096);
+        overflow: auto;
         
         h3{
             color:variaveis.$colorH;
@@ -96,6 +99,7 @@ header {
         border-bottom: solid 1px rgba(0, 0, 0, 0.096);
         border-top: solid 1px rgba(0, 0, 0, 0.096);
         display: flex;
+        overflow: auto;
         img{
             width: 130px;
             height: 120px;
@@ -162,6 +166,7 @@ footer{
   
 }
 .rodape{
+    
     padding: 1px;
     margin: 0;
     font-family:  variaveis.$font_Family;
@@ -182,10 +187,13 @@ footer{
         padding: 5px;
          border-bottom: solid 1px rgba(0, 0, 0, 0.096);
         border-top: solid 1px rgba(0, 0, 0, 0.096);
+        
 
     .img-corpo{
         @include variaveis.flexBox_(50%, 100%, inline-block, border-box);
           float: left;
+          margin: 0;
+          
 
             img{
                 width: variaveis.$widthTotal;
@@ -201,13 +209,15 @@ footer{
             padding: 0 25px;
             border: solid 1px rgba(80, 80, 80, 0.308); ;
             
-            h2{            
+            h2{   
+                margin: 5px 0 ;         
                 font-family: variaveis.$font_Family;
                 color: variaveis.$colorH;
             }
             p{
                 font-family: variaveis.$font_Family;
                 color: variaveis.$colorP;;
+                font-size: 15px;
                 b{
                     color: red;
                 }
