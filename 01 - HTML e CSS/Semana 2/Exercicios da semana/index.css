@@ -95,7 +95,7 @@ header nav .button-top {
   display: flex;
 }
 .event_list img {
-  width: 120px;
+  width: 130px;
   height: 120px;
   margin: 5px 15px;
 }
@@ -126,6 +126,11 @@ header nav .button-top {
   font-family: "Raleway", sans-serif, "Open Sans", sans-serif;
   color: rgba(31, 31, 31, 0.787);
   text-align: center;
+}
+.col-2 img {
+  width: 150px;
+  height: 120px;
+  margin: 5px 15px;
 }
 
 .col-3 {
