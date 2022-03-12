@@ -189,14 +189,16 @@ footer {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
+  border: solid 1px rgba(80, 80, 80, 0.308);
 }
 .event-emphasis .aviso {
   width: 50%;
   height: 100%;
   display: inline-block;
   box-sizing: border-box;
-  background-color: #c8c8c8;
-  padding: 5px;
+  background-color: rgba(228, 228, 228, 0.342);
+  padding: 0 25px;
+  border: solid 1px rgba(80, 80, 80, 0.308);
 }
 .event-emphasis .aviso h2 {
   font-family: "Raleway", sans-serif, "Open Sans", sans-serif;
