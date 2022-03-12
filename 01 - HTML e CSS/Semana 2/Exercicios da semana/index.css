@@ -79,7 +79,7 @@ header nav .button-top {
 .form label {
   color: rgba(31, 31, 31, 0.787);
   font-family: "Raleway", sans-serif, "Open Sans", sans-serif;
-  margin: 14px 15px;
+  margin: 14px 0px 5px 15px;
 }
 .form input {
   margin: 0px 15px;
