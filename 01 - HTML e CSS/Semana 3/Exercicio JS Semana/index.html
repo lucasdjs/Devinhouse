@@ -12,26 +12,31 @@
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500&family=Open+Sans:wght@300&family=Raleway:ital,wght@0,100;1,500&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/0e366c8cfc.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/1949/PNG/512/free-30-instagram-stories-icons33_122580.png" type="image/x-icon">
-    <style>
-      
-    </style>
 </head>
+
+
 <body>
+  
+  <script src="JS/variaveis.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <header>
+      
     <nav class="navbar navbar-light" style="background-color: rgba(3, 126, 126, 0.966);">
         <div class="container" > 
+          
+          <div class="col-4">
           <a class="navbar-brand" href="#">
             <img src="https://cdn.icon-icons.com/icons2/1949/PNG/512/free-30-instagram-stories-icons33_122580.png" alt="" width="35" height="24" >
             TripLocal
           </a>
-          
-          <nav class="navbar navbar navbar-light"   style="background-color: rgba(3, 126, 126, 0.966);">
+        </div>
+         
+          <nav class="navbar navbar navbar-light"   style="background-color: rgba(3, 126, 126, 0.966);  ">
             <div class="container-fluid">
               <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Destino..." aria-label="Search" style="font-size: 8px; height: 25px; width: 240px;" >
-                <button class="btn btn-outline-light  btn-sm " style="font-size: 8px; height: 24px;" type="submit">Buscar</button>
+                <input class="form-control me-2" type="search" placeholder="Destino..." aria-label="Search"  >
+                <button class="btn btn-outline-light  btn-sm "type="submit">Buscar</button>
               </form>
 
               <div class="dropdown">
@@ -46,15 +51,26 @@
                  
                 </ul>
               </div>
-              
+      
+              <div>
+                
+              <button type="button" class="btn btn-outline-light btn-sm" style="margin-left: 80px;" onclick="login()">Login</button>
+            </div>
+         
+      
             </div>            
           </nav>
+        </div>
         </header>
 
         <main>
-
-           
+  
                 <div class="container">
+
+                         
+                 
+         
+                  
                 <div class="row" >
 
                 <div class="col-5 col-sm-6 col-md-4 col-lg-3 col-xl-4" >
@@ -97,8 +113,8 @@
                                         </p>
                                     </div>
                                     <div class="modal-footer">
-                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                      <button type="button" class="btn btn-success">Comprar</button>
+                                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" >Cancelar</button>
+                                      <button type="button" class="btn btn-success" onclick="comprar()">Comprar</button>
                                     </div>
                                   </div>
                                 </div>
@@ -146,8 +162,8 @@
                                         </p>
                                     </div>
                                     <div class="modal-footer">
-                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                      <button type="button" class="btn btn-success">Comprar</button>
+                                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" >Cancelar</button>
+                                      <button type="button" class="btn btn-success" onclick="comprar()">Comprar</button>
                                     </div>
                                   </div>
                                 </div>
@@ -191,8 +207,8 @@
                                         <br>- Este pacote não inclui transfer.
                                     </div>
                                     <div class="modal-footer">
-                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                      <button type="button" class="btn btn-success">Comprar</button>
+                                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" >Cancelar</button>
+                                      <button type="button" class="btn btn-success" onclick="comprar()">Comprar</button>
                                     </div>
                                   </div>
                                 </div>
@@ -234,8 +250,8 @@
                                     </p>
                                     </div>
                                     <div class="modal-footer">
-                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                      <button type="button" class="btn btn-success">Comprar</button>
+                                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" >Cancelar</button>
+                                      <button type="button" class="btn btn-success" onclick="comprar()">Comprar</button>
                                     </div>
                                   </div>
                                 </div>
@@ -275,8 +291,8 @@
                                  <br>       <b>Hospedagem</b>: em Madrid. O TripLocal definirá a ordem da <b>Hospedagem</b>, a partir da disponibilidade e tarifário promocional dos parceiros locais. Nesta oferta, as opções de <b>Hospedagem</b> se encaixam na categoria econômica (entenda a classificação), e não incluem café da manhã.</p>
                                     </div>
                                     <div class="modal-footer">
-                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                      <button type="button" class="btn btn-success">Comprar</button>
+                                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" >Cancelar</button>
+                                      <button type="button" class="btn btn-success" onclick="comprar()">Comprar</button>
                                     </div>
                                   </div>
                                 </div>
@@ -323,8 +339,8 @@
                                         </p>
                                     </div>
                                     <div class="modal-footer">
-                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                      <button type="button" class="btn btn-success">Comprar</button>
+                                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" >Cancelar</button>
+                                      <button type="button" class="btn btn-success" onclick="comprar()">Comprar</button>
                                     </div>
                                   </div>
                                 </div>
@@ -346,11 +362,19 @@
 
                <footer style="overflow: hidden; ">
                 <div class="row"  style="overflow: hidden; height: 100%;">
-                    <div class="col-6 col-xxl-12" style="background-color: rgba(3, 126, 126, 0.966); overflow: hidden;" ><p style="color: rgba(229, 226, 226, 0.746); font-size: 10px; margin: 10px;">Endereço: Jonas Vieira, 218 Lages/SC <br>Fone: (49) 9 84240024 | Email: contato@triplocal.com </p></div>
+                    <div class="col-6 col-xxl-12" style="background-color: rgba(3, 126, 126, 0.966); overflow: hidden;" ><p style="color: rgba(229, 226, 226, 0.746); font-size: 15px; margin: 10px;">Endereço: Jonas Vieira, 218 Lages/SC <br>Fone: (49) 9 84240024 | Email: contato@triplocal.com </p> </div>
+                    <div class="col" style=" background-color: rgba(3, 126, 126, 0.966); ">
+                      <button type="button" class="btn btn-outline-light btn-sm" style="margin-top: 10px;" onclick="_Nome()">Exercicio 5</button>
+                  
+                      <button type="button" class="btn btn-outline-light btn-sm" style="margin-top: 10px;" onclick="exercicio_letra()">Exercicio 6</button>
+                      <button type="button" class="btn btn-outline-light btn-sm" style="margin-top: 10px;" onclick="exercicio_nascimento()">Exercicio 7</button>
+                      <button type="button" class="btn btn-outline-light btn-sm" style="margin-top: 10px;" onclick="exercicioCalculador()">Calculadora</button>
+                      <button type="button" class="btn btn-outline-light btn-sm" style="margin-top: 10px;" onclick="exercicioPA()">Calculadora PA</button>
+                    </div>
                     
                     
                     
-                    <div class="col col-xxl-12" style="background-color: rgba(3, 126, 126, 0.966); height: 100%;"><p style="color: rgba(240, 248, 255, 0.671); font-size: 10px; text-align: center; margin-top: 10px;">Desenvolvido por: <a href="https://www.linkedin.com/in/lucasjesus/"><i class="fa-brands fa-linkedin" style="color: rgba(240, 248, 255, 0.671);">Lucas Jesus</a></i>  <a href="https://github.com/lucasdjs"><i class="fa-brands fa-github" style="color: rgba(240, 248, 255, 0.671); overflow: hidden;">Github</a></i> <br> Formas de pagamento: <i class="fa-brands fa-cc-visa" style="padding: 5px; font-size: 15px;"></i><i class="fa-brands fa-cc-mastercard" style="padding: 5px; font-size: 15px;"></i></div>
+                    <div class="col col-xxl-12" style="background-color: rgba(3, 126, 126, 0.966); height: 100%;"><p style="color: rgba(240, 248, 255, 0.671); font-size: 15px; text-align: center; margin-top: 10px;">Desenvolvido por: <a href="https://www.linkedin.com/in/lucasjesus/"><i class="fa-brands fa-linkedin" style="color: rgba(240, 248, 255, 0.671);">Lucas Jesus</a></i>  <a href="https://github.com/lucasdjs"><i class="fa-brands fa-github" style="color: rgba(240, 248, 255, 0.671); overflow: hidden;">Github</a></i> <br> Formas de pagamento: <i class="fa-brands fa-cc-visa" style="padding: 5px; font-size: 15px;"></i><i class="fa-brands fa-cc-mastercard" style="padding: 5px; font-size: 15px;"></i></div>
                     </div>
                </footer>
 
