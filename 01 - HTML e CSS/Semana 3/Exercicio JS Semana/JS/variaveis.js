@@ -103,36 +103,36 @@ if(tipoCalculo == 4){
 
 }
 
-var somaPa = 10;
-var i = 0;
+// var somaPa = 10;
+// var i = 0;
 
 
    
-    for(i=1 ; i<=10; i++){
-        somaPa = 1 + (i - 1) * 3; 
-        console.log(somaPa);
-    }
+//     for(i=1 ; i<=10; i++){
+//         somaPa = 1 + (i - 1) * 3; 
+//         console.log(somaPa);
+//     }
 
 
 var primeiroValorPA = 0;
 var segundoValorPA = 0;
-var somaPa = ["1", "2", "3", "4","5", "6","7", "8" , "9", "10"];
+var somaPa =1;
 console.log(somaPa)
-somaPA[2].push;
+
 
 function exercicioPA(){
    var primeiroValorPA = prompt("Digite o primeiro valor para o calculo: ");
+   
   var segundoValorPA = prompt("Digite o segundo valor para o calculo: ");   
 
-  alert(primeiroValorPA);
 
+  var _valorPA = []
   for(i=primeiroValorPA ; i<=10; i++){
     somaPa = parseInt(primeiroValorPA) + parseInt(i - 1) * parseInt(segundoValorPA); 
-    somaPa.push[i];
-}
-alert(somaPa);
+    _valorPA.push(somaPa);
 
 }
+alert(_valorPA);
 
+}
 
-var somaPA2 = {}
