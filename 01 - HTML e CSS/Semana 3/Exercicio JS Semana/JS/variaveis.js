@@ -84,20 +84,20 @@ primeiroValor = prompt("Digite o primeiro valor para o calculo: ");
 segundoValor = prompt("Digite o segundo valor para o calculo: ");
 
 if(tipoCalculo == 1){
-    soma = (primeiroValor) + (segundoValor);
+    soma = parseInt(primeiroValor) + parseInt(segundoValor);
     alert("O resultado do seu calculo é: " + soma);
 }
 if(tipoCalculo == 2){
-    subtracao = (primeiroValor) - (segundoValor);
+    subtracao = parseInt(primeiroValor) - parseInt(segundoValor);
     alert("O resultado do seu calculo é: " + subtracao);
 }
 if(tipoCalculo == 3){
-    multiplicacao = (primeiroValor) * (segundoValor);
-    alert("O resultado do seu calculo é: " + multiplicacao);
+    multiplicacao = parseFloat(primeiroValor) * parseFloat(segundoValor);
+    alert("O resultado do seu calculo é: " + parseFloat(multiplicacao));
 }
 if(tipoCalculo == 4){
-    divisao = (primeiroValor) / (segundoValor);
-    alert("O resultado do seu calculo é: " + divisao);
+    divisao = parseFloat(primeiroValor) / parseFloat(segundoValor);
+    alert("O resultado do seu calculo é: " + parseFloat(divisao));
 }
 
 
