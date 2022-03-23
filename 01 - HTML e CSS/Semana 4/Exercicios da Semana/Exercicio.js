@@ -54,5 +54,15 @@ function exercicio_3(){
 let par = prompt('Digite um numero para verificar se é par ou impar');
  par = (par %2 ==0) ? console.log("par"): console.log("impar");
 }
+function tabuada_do_2(){
+    let resultado = [];
+    let tabuada = 1;
+
+    for(let i=0; i <=10 ; i++){
+            tabuada = 2 * i;
+            resultado.push(tabuada);
+    }
+    console.log(resultado);
+}
 
 
