@@ -14,6 +14,8 @@ let contas = [
   ];
   const OPERACAO_SACAR = 'SACAR';
   const OPERACAO_DEPOSITAR = 'DEPOSITAR';
+
+  
   const obterConta = (id) => contas.find((conta) => conta.id === id);
   const validaOperacao = (valor, contaOperacao, operacao) => {
     if (!contaOperacao) {
@@ -30,6 +32,9 @@ let contas = [
     }
     return true;
   };
+
+
+  
   const atualizaSaldo = (id, saldo) => {
     contas = contas.map((conta) => (conta.id === id ? { ...conta, saldo } : conta));
     console.log(`Seu saldo atual é: ${saldo}`);
@@ -51,4 +56,4 @@ let contas = [
   sacar(10, 200);
   depositar(1, 200);
   sacar(1, 500);
-  sacar(1, 10); (editado) 
+  sacar(1, 10); 
