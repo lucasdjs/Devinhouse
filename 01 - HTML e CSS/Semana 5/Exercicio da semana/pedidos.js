@@ -36,33 +36,25 @@ class pedidos{
    
 }
 
-
 const produto1 = new produtos('arroz', 3.80, 50, 2);
 const produto2 = new produtos('Feijao', 2.80, 7, 7);
 const produto3 = new produtos('massa', 1.50, 9, 1);
 const produto4 = new produtos('carne', 50, 4, 3);
 const produto5 = new produtos('Peixe', 23, 4, 5);
 
-let pedido1 = new pedidos(20220001);
 
-pedido1.adicionarProdutos(produto1);
-pedido1.adicionarProdutos(produto2);
-pedido1.adicionarProdutos(produto5);
-pedido1.calcularTotal();
+function novoPedido(number, prod1, prod2, prod3){
+    let pedido = new pedidos(number);
+    pedido.adicionarProdutos(prod1);
+    pedido.adicionarProdutos(prod2);
+    pedido.adicionarProdutos(prod3);
+    pedido.calcularTotal();
+    console.log(pedido)
+}
 
-console.log(pedido1);
+novoPedido(20220001, produto1,produto2,produto5)
+novoPedido(20220002, produto1,produto2,produto3)
 
-
-
-
-let pedido2 = new pedidos(20220002);
-
-pedido2.adicionarProdutos(produto5);
-pedido2.adicionarProdutos(produto3);
-pedido2.adicionarProdutos(produto1);
-pedido2.calcularTotal();
-
-console.log(pedido2);
 
 
 
