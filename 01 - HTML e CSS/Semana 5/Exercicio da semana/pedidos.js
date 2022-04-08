@@ -65,6 +65,15 @@ function novoPedido(number,nome, prod1, prod2, prod3){
 novoPedido(20220001,"Lucas", produto1,produto2,produto5);
 novoPedido(20220002,"Silva", produto1,produto2,produto3);
 
+setInterval(tempo, 2000);
+
+function tempo() { 
+    const date  = new Date();
+    console.log(date.toTimeString()) ;
+}
+
+
+
 
 
 
