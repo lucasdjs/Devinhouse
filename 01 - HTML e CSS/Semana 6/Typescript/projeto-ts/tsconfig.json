@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "lib": [
+        "es2016"
+      ],
+      "module": "commonjs",
+      "outDir": "dist",
+      "strict": true,
+      "target": "es2016",
+      "esModuleInterop": true
+    },
+    "include": [
+      "src"
+    ]
+  }
