@@ -16,12 +16,25 @@ async function Buscar(){
     }
     else{
         const response = await fetchAPI(`https://viacep.com.br/ws/${cep}/json/`, "GET");
-        if (response.ok) {
-            console.log(response);
-          }
-          else{
-          console.log('Deu erro');
-          }
+        
+        if(response.erro){
+            alert('Não foi possível consultar o CEP')
+         }
+         else{
+        console.log(response);
+    const paragrafo =  document.createElement("p");
+     const mostra =    document.getElementById('return')  
+
+     mostra.appendChild(paragrafo);
+
+     mostra.innerHTML = `Logradouro: ${response.logradouro}  ${response.complemento} -  ${response.bairro} - ${response.localidade}/${response.uf}`
+
+        // mostrar.id = 'paragrafo';
+        // mostrar = document.getElementById('paragrafo');
+        // mostrar.innerHTML(`Logradouro: ${response.logradouro} complemento: ${response.complemento} - bairro: ${response.bairro} - ${response.localidade}/${response.uf}`)
+
+
+         }
          
  
     }
