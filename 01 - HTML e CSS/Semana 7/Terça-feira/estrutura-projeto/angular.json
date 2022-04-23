@@ -3,35 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "projeto-semana": {
+    "estrutura-projeto": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "inlineTemplate": true,
-          "inlineStyle": true,
-          "style": "scss",
-          "skipTests": true
-        },
-        "@schematics/angular:class": {
-          "skipTests": true
-        },
-        "@schematics/angular:directive": {
-          "skipTests": true
-        },
-        "@schematics/angular:guard": {
-          "skipTests": true
-        },
-        "@schematics/angular:interceptor": {
-          "skipTests": true
-        },
-        "@schematics/angular:pipe": {
-          "skipTests": true
-        },
-        "@schematics/angular:resolver": {
-          "skipTests": true
-        },
-        "@schematics/angular:service": {
-          "skipTests": true
+          "style": "scss"
         },
         "@schematics/angular:application": {
           "strict": true
@@ -39,12 +15,12 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "NGF",
+      "prefix": "esp-test",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/projeto-semana",
+            "outputPath": "dist/estrutura-projeto",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -56,8 +32,6 @@
             ],
             "styles": [
               "src/styles.scss"
-            
-
             ],
             "scripts": []
           },
@@ -98,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "projeto-semana:build:production"
+              "browserTarget": "estrutura-projeto:build:production"
             },
             "development": {
-              "browserTarget": "projeto-semana:build:development"
+              "browserTarget": "estrutura-projeto:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -109,11 +83,29 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "projeto-semana:build"
+            "browserTarget": "estrutura-projeto:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/test.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.spec.json",
+            "karmaConfig": "karma.conf.js",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.scss"
+            ],
+            "scripts": []
           }
         }
       }
     }
   },
-  "defaultProject": "projeto-semana"
+  "defaultProject": "estrutura-projeto"
 }

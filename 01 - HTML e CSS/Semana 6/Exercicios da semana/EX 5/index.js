@@ -1,7 +1,6 @@
 async function fetchAPI(url, metodo){
     const response = await fetch(url,{method:metodo});
     return await response.json();
-
 }
 
 async function Buscar(){
