@@ -1,0 +1,16 @@
+
+<div class="container row">
+    <div *ngFor="let item of list " class="col">
+    <div class="card" style="width: 18rem; margin: 10px;">
+       
+      <img src="{{item.src}}" class="card-img-top" alt="..." style="height: 200px;">
+      <div class="card-body ">
+        <h5 class="card-title">{{item.title}}</h5>
+        <p class="card-text">{{item.cardText}}</p>
+        <a href="#" class="btn btn-primary">{{item.btnText}}</a>
+      </div>
+    </div>
+</div>
+  
+    </div>
+    
