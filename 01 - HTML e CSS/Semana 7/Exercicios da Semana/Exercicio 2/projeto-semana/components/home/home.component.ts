@@ -2,20 +2,22 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'NGF-content',
-  templateUrl: './content.component.html',
+  templateUrl: './home.component.html',
   styles: [
   ]
 })
 export class ContentComponent implements OnInit {
-  list = [{
+
+  listComidas = [{
     title: "Comida",
     cardText: "Lanches, hambuguers, pastéis, pizzas...",
     btnText: "Visualizar",
     src:'https://mercadoeconsumo.com.br/wp-content/uploads/2019/04/Que-comida-saud%C3%A1vel-que-nada-brasileiro-gosta-de-fast-food.jpg',
-  },
+   
+  },]
 
+  listBebidas =[{
   
-  {
     title: "Bebidas",
     cardText: "Refrigerantes, cooquetéis, whiskey etc...",
     btnText: "Visualizar",
@@ -23,11 +25,17 @@ export class ContentComponent implements OnInit {
   }
   
 
-];
+  ];
+  
 
-  constructor() { }
+  constructor() {
+   
+   }
 
   ngOnInit(): void {
+
   }
 
+
+  
 }
