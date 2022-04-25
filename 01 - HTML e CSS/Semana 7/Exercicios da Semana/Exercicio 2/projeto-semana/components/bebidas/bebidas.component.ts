@@ -4,7 +4,8 @@ import { BebidasService } from './bebidas.service';
 @Component({
   selector: 'NGF-bebidas',
   templateUrl: './bebidas.component.html',
-  styles: [
+  styleUrls: [
+'./bebidas.component.scss'
   ]
 })
 export class BebidasComponent implements OnInit {
