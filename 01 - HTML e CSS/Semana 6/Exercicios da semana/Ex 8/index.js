@@ -22,7 +22,7 @@ async function Consultar(){
             console.log(await response.json());
     }
     catch{
-        alert("deu ruim")
+        alert("Não foi possivel acessar o endereço")
     }
     
 
