@@ -17,17 +17,15 @@ async function Consultar(){
     }
      else{
 
-        try{
+     
             const response = await fetchAPI(`https://viacep.com.br/ws/${uf}/${cidade}/${rua}/json/`, "GET");
             console.log(await response.json());
-    }
-    catch{
-        alert("deu ruim")
-    }
+    
+ }
     
 
 
 }
 
-}
+
 
