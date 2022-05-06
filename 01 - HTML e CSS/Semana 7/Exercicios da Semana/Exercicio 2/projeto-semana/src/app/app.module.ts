@@ -9,8 +9,7 @@ import { RouterModule, Route } from '@angular/router';
 import { Router } from '@angular/router';
 import { ComidaComponent } from '../../components/comida/comida.component';
 import { HomeComponent } from '../../pages/home/home.component';
-
-
+import {HttpClient, HttpClientModule} from '@angular/common/http'
 
 const ROUTES: Route[] = [
   {
@@ -26,8 +25,6 @@ const ROUTES: Route[] = [
     component: ComidaComponent
   },
   
-  
- 
 ]
 @NgModule({
   
@@ -43,6 +40,7 @@ const ROUTES: Route[] = [
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     RouterModule.forRoot(ROUTES)
   ],
   providers: [],

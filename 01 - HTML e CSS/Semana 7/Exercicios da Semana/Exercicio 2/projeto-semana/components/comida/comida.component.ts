@@ -1,14 +1,9 @@
 import { style } from '@angular/animations';
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { comidas_list } from 'utils/list-comidas-mock';
+import { ListaComidas } from 'models/modelo.comida';
 
- interface Comidas{
-  src: string;
-  produto: string;
-  preco: number;
-  btnText: string;
-  descricao: string;
- }
 
 @Component({
   selector: 'NGF-comida',
@@ -16,10 +11,14 @@ import { comidas_list } from 'utils/list-comidas-mock';
   styleUrls: ['./comida.component.scss']
 })
 export class ComidaComponent implements OnInit {
-  listPComidas: Comidas[]= comidas_list; 
-  constructor() { }
+  listPComidas: ListaComidas[]= comidas_list; 
+
+  constructor(private http:HttpClient) { }
 
   ngOnInit(): void {
+    this.http.get<ListaComidas[]>("http://localhost:3000/comidas_list").subscribe((resultado)=>{
+      this.listPComidas = resultado;
+    })
   }
 
 }
