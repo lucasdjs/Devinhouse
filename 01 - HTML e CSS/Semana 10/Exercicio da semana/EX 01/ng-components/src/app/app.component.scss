@@ -1,0 +1,69 @@
+.menu-hamb {
+    background: #fe3;
+    width: 100vw;
+    height: 80px;
+    transition: .5s ease-in-out;
+    }
+    label.checked .menu-hamb{
+    height: 100vh;
+    }
+    .hamburguer{
+    display:block;
+    width:40px;
+    height:5px;
+    background:#333;
+    position:relative;
+    left:80%;
+    top:30px;
+    transition: .5s ease-in-out;
+    }
+    .hamburguer:after,
+    .hamburguer:before{
+    width:100%;
+    height:100%;
+    content:'';
+    background:#333;
+    position:absolute;
+    transition: .5s ease-in-out;
+    }
+    .hamburguer:before{
+    top:-10px;
+    transition: .5s ease-in-out;
+    }
+    .hamburguer:after{
+    bottom:-10px;
+    transition: .5s ease-in-out;
+    }
+    label.checked .hamburguer {
+    transform: rotate(45deg);
+    transition: .5s ease-in-out;
+    }
+    label.checked .hamburguer:before {
+    transform: rotate(90deg);
+    top: 0;
+    transition: .5s ease-in-out;
+    }
+    label.checked .hamburguer:after {
+    transform: rotate(90deg);
+    bottom: 0;
+    transition: .5s ease-in-out;
+    }
+    label.checked + ul.ul-mbl {
+    opacity:1;
+    }
+    .ul-mbl {
+        position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    font-size: 20px;
+    opacity: 0;
+    transition: .25s .1s ease-in-out;
+    z-index: 1
+    }
+    .ul-mbl li{
+    margin:40px auto;
+    }
+      
+      
