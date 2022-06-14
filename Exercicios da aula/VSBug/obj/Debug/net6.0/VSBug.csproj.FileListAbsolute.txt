@@ -1,5 +1,0 @@
-D:\lucas\DevInhouse\C#\Exercicios da aula\VSBug\obj\Debug\net6.0\VSBug.csproj.AssemblyReference.cache
-D:\lucas\DevInhouse\C#\Exercicios da aula\VSBug\obj\Debug\net6.0\VSBug.GeneratedMSBuildEditorConfig.editorconfig
-D:\lucas\DevInhouse\C#\Exercicios da aula\VSBug\obj\Debug\net6.0\VSBug.AssemblyInfoInputs.cache
-D:\lucas\DevInhouse\C#\Exercicios da aula\VSBug\obj\Debug\net6.0\VSBug.AssemblyInfo.cs
-D:\lucas\DevInhouse\C#\Exercicios da aula\VSBug\obj\Debug\net6.0\VSBug.csproj.CoreCompileInputs.cache
