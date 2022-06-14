@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = VSBug
-build_property.ProjectDir = D:\lucas\DevInhouse\Csharp\Devinhouse\Semana 1\VSBug\VSBug\
+build_property.RootNamespace = Exercicio_6
+build_property.ProjectDir = D:\lucas\DevInhouse\C#\Aula 3\Exercicios da semana\Exercicio 6\Exercicio 6\
