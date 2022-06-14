@@ -1,0 +1,15 @@
+D:\lucas\DevInhouse\C#\Aula 3\Segunda S2\Segunda S2\bin\Debug\net6.0\Segunda S2.exe
+D:\lucas\DevInhouse\C#\Aula 3\Segunda S2\Segunda S2\bin\Debug\net6.0\Segunda S2.deps.json
+D:\lucas\DevInhouse\C#\Aula 3\Segunda S2\Segunda S2\bin\Debug\net6.0\Segunda S2.runtimeconfig.json
+D:\lucas\DevInhouse\C#\Aula 3\Segunda S2\Segunda S2\bin\Debug\net6.0\Segunda S2.dll
+D:\lucas\DevInhouse\C#\Aula 3\Segunda S2\Segunda S2\bin\Debug\net6.0\Segunda S2.pdb
+D:\lucas\DevInhouse\C#\Aula 3\Segunda S2\Segunda S2\obj\Debug\net6.0\Segunda S2.csproj.AssemblyReference.cache
+D:\lucas\DevInhouse\C#\Aula 3\Segunda S2\Segunda S2\obj\Debug\net6.0\Segunda S2.GeneratedMSBuildEditorConfig.editorconfig
+D:\lucas\DevInhouse\C#\Aula 3\Segunda S2\Segunda S2\obj\Debug\net6.0\Segunda S2.AssemblyInfoInputs.cache
+D:\lucas\DevInhouse\C#\Aula 3\Segunda S2\Segunda S2\obj\Debug\net6.0\Segunda S2.AssemblyInfo.cs
+D:\lucas\DevInhouse\C#\Aula 3\Segunda S2\Segunda S2\obj\Debug\net6.0\Segunda S2.csproj.CoreCompileInputs.cache
+D:\lucas\DevInhouse\C#\Aula 3\Segunda S2\Segunda S2\obj\Debug\net6.0\Segunda S2.dll
+D:\lucas\DevInhouse\C#\Aula 3\Segunda S2\Segunda S2\obj\Debug\net6.0\refint\Segunda S2.dll
+D:\lucas\DevInhouse\C#\Aula 3\Segunda S2\Segunda S2\obj\Debug\net6.0\Segunda S2.pdb
+D:\lucas\DevInhouse\C#\Aula 3\Segunda S2\Segunda S2\obj\Debug\net6.0\Segunda S2.genruntimeconfig.cache
+D:\lucas\DevInhouse\C#\Aula 3\Segunda S2\Segunda S2\obj\Debug\net6.0\ref\Segunda S2.dll
