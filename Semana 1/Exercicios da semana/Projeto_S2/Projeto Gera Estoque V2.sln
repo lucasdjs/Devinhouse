@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio 6", "Exercicio 6\Exercicio 6.csproj", "{8A1D5AA7-E553-49FF-860C-7875A22C70C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gera Estoque V2", "Exercicio 6\Gera Estoque V2.csproj", "{8A1D5AA7-E553-49FF-860C-7875A22C70C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screens", "Screens", "{FA24F92D-6D94-49F2-A63D-D7EC8DDAF028}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A1D5AA7-E553-49FF-860C-7875A22C70C9} = {FA24F92D-6D94-49F2-A63D-D7EC8DDAF028}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {30F96B9F-B334-45B4-9D21-D24B355D64BA}

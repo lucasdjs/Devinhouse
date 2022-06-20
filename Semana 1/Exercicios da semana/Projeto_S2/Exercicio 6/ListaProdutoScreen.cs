@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercicio_6
+namespace GeraEstoque.Screen
 {
-    internal class Class1
+    public static class ListaProdutoScreen
     {
     }
 }
