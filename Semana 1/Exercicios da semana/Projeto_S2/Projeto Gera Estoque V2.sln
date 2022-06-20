@@ -5,7 +5,7 @@ VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gera Estoque V2", "Exercicio 6\Gera Estoque V2.csproj", "{8A1D5AA7-E553-49FF-860C-7875A22C70C9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Screens", "Screens", "{FA24F92D-6D94-49F2-A63D-D7EC8DDAF028}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projeto", "Projeto", "{FA24F92D-6D94-49F2-A63D-D7EC8DDAF028}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

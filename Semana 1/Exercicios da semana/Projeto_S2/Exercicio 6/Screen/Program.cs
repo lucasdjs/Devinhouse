@@ -2,7 +2,7 @@
 using System.Globalization;
 using GeraEstoque.Screen;
 
-namespace GeraEstoque
+namespace GeraEstoque.Screen
 
 
 {
@@ -12,7 +12,7 @@ namespace GeraEstoque
         {
             MenuScreen.Iniciar();
         }
-       
-       
+
+
     }
 }
