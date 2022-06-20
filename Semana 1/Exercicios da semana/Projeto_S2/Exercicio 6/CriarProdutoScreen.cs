@@ -3,10 +3,46 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Globalization;
 
 namespace GeraEstoque.Screen
 {
     public static class CriarProdutoScreen
     {
+        public static void Iniciar()
+        {
+            Guid id = Guid.NewGuid();
+
+            Console.Write("Digite o nome do produto: ");
+            string nome = Console.ReadLine();
+
+            Console.Write("Quantidade: ");
+            int quantidade = int.Parse(Console.ReadLine());
+
+            Console.Write("Valor de compra: R$");
+            double valorCompra = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Console.Write("Valor de venda: R$");
+            double valorVenda = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.WriteLine();
+            Console.WriteLine("Produto cadastrado com sucesso!");
+
+            Console.WriteLine("---------------------------------------------------");
+
+
+            Console.WriteLine();
+
+
+            Console.WriteLine("ID: " + id);
+            Console.WriteLine("Nome: " + nome);
+            Console.WriteLine("Quantidade: " + quantidade);
+            Console.WriteLine("Preço de compra: R$" + valorCompra.ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("Preço de venda: R$" + valorVenda.ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine();
+            Console.WriteLine("Pressione uma tecla qualquer para voltar ao menu principal");
+            string retornarMenu = Console.ReadLine();
+
+           
+        }
     }
 }

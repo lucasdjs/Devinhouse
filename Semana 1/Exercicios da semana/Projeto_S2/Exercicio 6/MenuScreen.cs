@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Globalization;
+using GeraEstoque.Screen;
 
 namespace GeraEstoque.Screen
 {
@@ -35,7 +36,8 @@ namespace GeraEstoque.Screen
             switch (opcao)
             {
                 case 1:
-                    CadastrarProduto();
+                    CriarProdutoScreen.Iniciar();
+                    Iniciar();
                     break;
                 default:
                     Environment.Exit(0);
@@ -44,44 +46,6 @@ namespace GeraEstoque.Screen
 
 
         }
-            public static void CadastrarProduto()
-            {
-                Guid id = Guid.NewGuid();
-
-                Console.Write("Digite o nome do produto: ");
-                string nome = Console.ReadLine();
-
-                Console.Write("Quantidade: ");
-                int quantidade = int.Parse(Console.ReadLine());
-
-                Console.Write("Valor de compra: R$");
-                double valorCompra = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-
-                Console.Write("Valor de venda: R$");
-                double valorVenda = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-               Console.WriteLine();
-               Console.WriteLine("Produto cadastrado com sucesso!");
-
-                 Console.WriteLine("---------------------------------------------------");
-
-             
-                Console.WriteLine();
-
-
-                Console.WriteLine("ID: " + id);
-                Console.WriteLine("Nome: " + nome);
-                Console.WriteLine("Quantidade: " + quantidade);
-                Console.WriteLine("Preço de compra: R$" + valorCompra.ToString("F2", CultureInfo.InvariantCulture));
-                Console.WriteLine("Preço de venda: R$" + valorVenda.ToString("F2", CultureInfo.InvariantCulture));
-                Console.WriteLine();
-                Console.WriteLine("Pressione uma tecla qualquer para voltar ao menu principal");
-                string retornarMenu = Console.ReadLine();
-
-                if (retornarMenu != "0")
-                {
-                    Menu();
-                }
-
-            }
+        
     }
 }
