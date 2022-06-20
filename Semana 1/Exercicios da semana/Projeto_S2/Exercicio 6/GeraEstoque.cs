@@ -1,4 +1,9 @@
-﻿namespace GeraEstoque
+﻿using System;
+using System.Globalization;
+
+namespace GeraEstoque
+
+
 {
     public class Program
     {
@@ -29,8 +34,17 @@
 
         public static void CadastrarProduto()
         {
-            Console.WriteLine("teste");
-            Console.ReadLine();
+            Console.Write("Digite o nome do produto: ");
+            string nome = Console.ReadLine();
+
+            Console.Write("Quantidade: ");
+            int quantidade = int.Parse(Console.ReadLine());
+
+            Console.Write("Valor de compra: ");
+            double valorCompra = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Console.Write("Valor de venda: ");
+            double valorVenda = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
         }
 
        

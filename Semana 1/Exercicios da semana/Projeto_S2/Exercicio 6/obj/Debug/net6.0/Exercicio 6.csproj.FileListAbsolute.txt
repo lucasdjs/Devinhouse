@@ -28,3 +28,18 @@ D:\lucas\DevInhouse\Csharp\Devinhouse\Semana 1\Exercicios da semana\Exercicio 6\
 D:\lucas\DevInhouse\Csharp\Devinhouse\Semana 1\Exercicios da semana\Exercicio 6\Exercicio 6\obj\Debug\net6.0\Exercicio 6.pdb
 D:\lucas\DevInhouse\Csharp\Devinhouse\Semana 1\Exercicios da semana\Exercicio 6\Exercicio 6\obj\Debug\net6.0\Exercicio 6.genruntimeconfig.cache
 D:\lucas\DevInhouse\Csharp\Devinhouse\Semana 1\Exercicios da semana\Exercicio 6\Exercicio 6\obj\Debug\net6.0\ref\Exercicio 6.dll
+D:\lucas\DevInhouse\Csharp\Devinhouse\Semana 1\Exercicios da semana\Projeto_S2\Exercicio 6\bin\Debug\net6.0\Exercicio 6.exe
+D:\lucas\DevInhouse\Csharp\Devinhouse\Semana 1\Exercicios da semana\Projeto_S2\Exercicio 6\bin\Debug\net6.0\Exercicio 6.deps.json
+D:\lucas\DevInhouse\Csharp\Devinhouse\Semana 1\Exercicios da semana\Projeto_S2\Exercicio 6\bin\Debug\net6.0\Exercicio 6.runtimeconfig.json
+D:\lucas\DevInhouse\Csharp\Devinhouse\Semana 1\Exercicios da semana\Projeto_S2\Exercicio 6\bin\Debug\net6.0\Exercicio 6.dll
+D:\lucas\DevInhouse\Csharp\Devinhouse\Semana 1\Exercicios da semana\Projeto_S2\Exercicio 6\bin\Debug\net6.0\Exercicio 6.pdb
+D:\lucas\DevInhouse\Csharp\Devinhouse\Semana 1\Exercicios da semana\Projeto_S2\Exercicio 6\obj\Debug\net6.0\Exercicio 6.csproj.AssemblyReference.cache
+D:\lucas\DevInhouse\Csharp\Devinhouse\Semana 1\Exercicios da semana\Projeto_S2\Exercicio 6\obj\Debug\net6.0\Exercicio 6.GeneratedMSBuildEditorConfig.editorconfig
+D:\lucas\DevInhouse\Csharp\Devinhouse\Semana 1\Exercicios da semana\Projeto_S2\Exercicio 6\obj\Debug\net6.0\Exercicio 6.AssemblyInfoInputs.cache
+D:\lucas\DevInhouse\Csharp\Devinhouse\Semana 1\Exercicios da semana\Projeto_S2\Exercicio 6\obj\Debug\net6.0\Exercicio 6.AssemblyInfo.cs
+D:\lucas\DevInhouse\Csharp\Devinhouse\Semana 1\Exercicios da semana\Projeto_S2\Exercicio 6\obj\Debug\net6.0\Exercicio 6.csproj.CoreCompileInputs.cache
+D:\lucas\DevInhouse\Csharp\Devinhouse\Semana 1\Exercicios da semana\Projeto_S2\Exercicio 6\obj\Debug\net6.0\Exercicio 6.dll
+D:\lucas\DevInhouse\Csharp\Devinhouse\Semana 1\Exercicios da semana\Projeto_S2\Exercicio 6\obj\Debug\net6.0\refint\Exercicio 6.dll
+D:\lucas\DevInhouse\Csharp\Devinhouse\Semana 1\Exercicios da semana\Projeto_S2\Exercicio 6\obj\Debug\net6.0\Exercicio 6.pdb
+D:\lucas\DevInhouse\Csharp\Devinhouse\Semana 1\Exercicios da semana\Projeto_S2\Exercicio 6\obj\Debug\net6.0\Exercicio 6.genruntimeconfig.cache
+D:\lucas\DevInhouse\Csharp\Devinhouse\Semana 1\Exercicios da semana\Projeto_S2\Exercicio 6\obj\Debug\net6.0\ref\Exercicio 6.dll
