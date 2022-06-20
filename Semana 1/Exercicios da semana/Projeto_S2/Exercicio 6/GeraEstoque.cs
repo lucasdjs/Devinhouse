@@ -9,6 +9,11 @@ namespace GeraEstoque
     {
         static void Main(string[] args)
         {
+            Menu();
+        }
+        public static void Menu()
+        {
+
             Console.WriteLine("Seja bem vindo ao GeraEstoque 1.0");
             Console.WriteLine("---------------------------------------------------");
 
@@ -20,16 +25,22 @@ namespace GeraEstoque
 
             Console.Write("Digite a opção: ");
 
-           int opcao = int.Parse(Console.ReadLine());
+
+
+            int opcao = int.Parse(Console.ReadLine());
+            Console.WriteLine();
 
             switch (opcao)
             {
                 case 1:
                     CadastrarProduto();
                     break;
+                default:
+                    Environment.Exit(0);
+                    break;
             }
-            
-          
+                
+
         }
 
         public static void CadastrarProduto()
@@ -51,6 +62,7 @@ namespace GeraEstoque
             Console.WriteLine("---------------------------------------------------");
             Console.WriteLine();
             Console.WriteLine("Produto cadastrado com sucesso!");
+            Console.WriteLine();
 
 
             Console.WriteLine("ID: " +id);
@@ -58,6 +70,15 @@ namespace GeraEstoque
             Console.WriteLine("Quantidade: " + quantidade);
             Console.WriteLine("Preço de compra: R$" + valorCompra.ToString("F2", CultureInfo.InvariantCulture));
             Console.WriteLine("Preço de venda: R$" + valorVenda.ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine();
+            Console.WriteLine("Pressione uma tecla qualquer para voltar ao menu principal");
+            string retornarMenu = Console.ReadLine();
+
+            if (retornarMenu != "0")
+            {
+                Menu();
+            }
+            
         }
 
        
