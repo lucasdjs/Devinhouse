@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\lucas\\DevInhouse\\C#\\Aula 3\\Segunda S2\\Segunda S2\\Segunda S2.csproj": {}
+    "D:\\lucas\\DevInhouse\\Csharp\\Devinhouse\\Semana 2\\Segunda S2\\Segunda S2\\Segunda S2.csproj": {}
   },
   "projects": {
-    "D:\\lucas\\DevInhouse\\C#\\Aula 3\\Segunda S2\\Segunda S2\\Segunda S2.csproj": {
+    "D:\\lucas\\DevInhouse\\Csharp\\Devinhouse\\Semana 2\\Segunda S2\\Segunda S2\\Segunda S2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\lucas\\DevInhouse\\C#\\Aula 3\\Segunda S2\\Segunda S2\\Segunda S2.csproj",
+        "projectUniqueName": "D:\\lucas\\DevInhouse\\Csharp\\Devinhouse\\Semana 2\\Segunda S2\\Segunda S2\\Segunda S2.csproj",
         "projectName": "Segunda S2",
-        "projectPath": "D:\\lucas\\DevInhouse\\C#\\Aula 3\\Segunda S2\\Segunda S2\\Segunda S2.csproj",
+        "projectPath": "D:\\lucas\\DevInhouse\\Csharp\\Devinhouse\\Semana 2\\Segunda S2\\Segunda S2\\Segunda S2.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "D:\\lucas\\DevInhouse\\C#\\Aula 3\\Segunda S2\\Segunda S2\\obj\\",
+        "outputPath": "D:\\lucas\\DevInhouse\\Csharp\\Devinhouse\\Semana 2\\Segunda S2\\Segunda S2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

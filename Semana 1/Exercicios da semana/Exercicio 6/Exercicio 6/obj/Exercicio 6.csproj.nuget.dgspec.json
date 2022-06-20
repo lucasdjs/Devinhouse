@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\lucas\\DevInhouse\\C#\\Aula 3\\Exercicios da semana\\Exercicio 6\\Exercicio 6\\Exercicio 6.csproj": {}
+    "D:\\lucas\\DevInhouse\\Csharp\\Devinhouse\\Semana 1\\Exercicios da semana\\Exercicio 6\\Exercicio 6\\Exercicio 6.csproj": {}
   },
   "projects": {
-    "D:\\lucas\\DevInhouse\\C#\\Aula 3\\Exercicios da semana\\Exercicio 6\\Exercicio 6\\Exercicio 6.csproj": {
+    "D:\\lucas\\DevInhouse\\Csharp\\Devinhouse\\Semana 1\\Exercicios da semana\\Exercicio 6\\Exercicio 6\\Exercicio 6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\lucas\\DevInhouse\\C#\\Aula 3\\Exercicios da semana\\Exercicio 6\\Exercicio 6\\Exercicio 6.csproj",
+        "projectUniqueName": "D:\\lucas\\DevInhouse\\Csharp\\Devinhouse\\Semana 1\\Exercicios da semana\\Exercicio 6\\Exercicio 6\\Exercicio 6.csproj",
         "projectName": "Exercicio 6",
-        "projectPath": "D:\\lucas\\DevInhouse\\C#\\Aula 3\\Exercicios da semana\\Exercicio 6\\Exercicio 6\\Exercicio 6.csproj",
+        "projectPath": "D:\\lucas\\DevInhouse\\Csharp\\Devinhouse\\Semana 1\\Exercicios da semana\\Exercicio 6\\Exercicio 6\\Exercicio 6.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "D:\\lucas\\DevInhouse\\C#\\Aula 3\\Exercicios da semana\\Exercicio 6\\Exercicio 6\\obj\\",
+        "outputPath": "D:\\lucas\\DevInhouse\\Csharp\\Devinhouse\\Semana 1\\Exercicios da semana\\Exercicio 6\\Exercicio 6\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

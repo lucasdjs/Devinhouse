@@ -14,7 +14,25 @@
             Console.WriteLine("0  Sair");
 
             Console.Write("Digite a opção: ");
+
            int opcao = int.Parse(Console.ReadLine());
+
+            switch (opcao)
+            {
+                case 1:
+                    CadastrarProduto();
+                    break;
+            }
+            
+          
         }
+
+        public static void CadastrarProduto()
+        {
+            Console.WriteLine("teste");
+            Console.ReadLine();
+        }
+
+       
     }
 }
