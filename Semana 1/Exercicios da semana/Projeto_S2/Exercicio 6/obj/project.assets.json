@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\lucas\\DevInhouse\\Csharp\\Devinhouse\\Semana 1\\Exercicios da semana\\Projeto_S2\\Exercicio 6\\Exercicio 6.csproj",
-      "projectName": "Exercicio 6",
-      "projectPath": "D:\\lucas\\DevInhouse\\Csharp\\Devinhouse\\Semana 1\\Exercicios da semana\\Projeto_S2\\Exercicio 6\\Exercicio 6.csproj",
+      "projectUniqueName": "D:\\lucas\\DevInhouse\\Csharp\\Devinhouse\\Semana 1\\Exercicios da semana\\Projeto_S2\\Exercicio 6\\Gera Estoque V2.csproj",
+      "projectName": "Gera Estoque V2",
+      "projectPath": "D:\\lucas\\DevInhouse\\Csharp\\Devinhouse\\Semana 1\\Exercicios da semana\\Projeto_S2\\Exercicio 6\\Gera Estoque V2.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
       "outputPath": "D:\\lucas\\DevInhouse\\Csharp\\Devinhouse\\Semana 1\\Exercicios da semana\\Projeto_S2\\Exercicio 6\\obj\\",
       "projectStyle": "PackageReference",
